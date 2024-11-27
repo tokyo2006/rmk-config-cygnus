@@ -1225,8 +1225,9 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 
 [[package]]
 name = "rmk"
-version = "0.4.1"
-source = "git+https://github.com/HaoboGu/rmk?branch=feat/usb_ble_switch#149c7f790304fc61b7152e95028110cfe05287e4"
+version = "0.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "78c15f9642212a194016b8765820c1ad1433eb39ca08199213874830e23ca9ea"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1262,10 +1263,12 @@ dependencies = [
 
 [[package]]
 name = "rmk-config"
-version = "0.2.0"
-source = "git+https://github.com/HaoboGu/rmk?branch=feat/usb_ble_switch#149c7f790304fc61b7152e95028110cfe05287e4"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5de1d8dd12e638a8e51741347a414a583d373846fa61eb99c49c380c82dd56bd"
 dependencies = [
  "embassy-nrf",
+ "embassy-time",
  "embedded-hal 1.0.0",
  "serde",
  "serde_derive",
@@ -1273,8 +1276,9 @@ dependencies = [
 
 [[package]]
 name = "rmk-macro"
-version = "0.3.0"
-source = "git+https://github.com/HaoboGu/rmk?branch=feat/usb_ble_switch#149c7f790304fc61b7152e95028110cfe05287e4"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32390785181b94002144a50397eff69206a1a1542e7bac0c8531fe5ff028f287"
 dependencies = [
  "cargo_toml",
  "darling 0.20.10",
