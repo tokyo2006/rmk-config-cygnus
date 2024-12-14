@@ -1,0 +1,11 @@
+name: Build RMK firmware
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "keyboard.toml"
+      - "vial.json"
+
+jobs:
+  build:
+    uses: HaoboGu/rmk-project-template/.github/workflows/build.yml@master
