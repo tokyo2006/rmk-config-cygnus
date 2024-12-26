@@ -8,4 +8,4 @@ on:
 
 jobs:
   build:
-    uses: HaoboGu/rmk-project-template/.github/workflows/user_build.yml@master
+    uses: HaoboGu/rmk/.github/workflows/user_build.yml@master
